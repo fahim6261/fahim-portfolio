@@ -41,7 +41,7 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi,I'am <br><span class="home__title-color">Noor Nobi Fahim</span><br> Graphic
+                <h1 class="home__title">Hi,I'am<br> <span class="home__title-color">Noor Nobi Fahim</span><br> Graphic
                     Designer</h1>
 
                 <a href="#" class="button">Contact</a>
@@ -95,8 +95,7 @@
             <div class="skills__container bd-grid">
                 <div>
                     <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-                        vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <p class="skills__text">As a skilled professional, I specialize in Adobe Illustrator and Adobe Photoshop, creating captivating graphics, logos, and visual assets. My expertise extends to UI/UX Design, where I craft intuitive, user-friendly digital experiences. Additionally, I have a solid foundation in HTML and CSS, allowing me to build simple yet effective web pages</p>
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class='bx bxl-adobe skills__icon'></i>
@@ -184,11 +183,12 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Enter" class="contact__button button">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                    <input type="hidden" name="access_key" value="fec5eb9f-4d9b-4c11-85d0-eda19a218bc0">
+                    <input type="text" placeholder="Name" name="name" class="contact__input">
+                    <input type="email" placeholder="Email" name="email" class="contact__input">
+                    <textarea name="message" id="message" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="submit" value="SEND MESSAGE" class="contact__button button">
                 </form>
             </div>
         </section>
